@@ -329,7 +329,7 @@ li {
   .card-holder {
     flex-direction: column;
     text-align: center;
-    padding-left: 15px;
+    padding-left: 10px;
     gap: 30px;
   }
 
