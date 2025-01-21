@@ -178,6 +178,7 @@ li {
 
 .card-holder {
   justify-content: space-around;
+  margin-bottom: 80px;
 }
 
 .standard-card-section-1 {
@@ -242,6 +243,21 @@ li {
   max-width: 135px;
   max-height: 136px;
   margin: 32px;
+}
+
+.arrow-btn-container {
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  background-color: #fea301;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 2rem;
+  padding: 10px;
 }
 
 /* responsive style */
@@ -319,5 +335,9 @@ li {
 
   .standard-title {
     font-size: 1.85rem;
+  }
+
+  .arrow-btn-container {
+    display: none;
   }
 }
