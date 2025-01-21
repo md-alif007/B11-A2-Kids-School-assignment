@@ -68,7 +68,7 @@ li {
 }
 
 .nav-middle-side {
-  margin-top: 30px;
+  margin-top: 17px;
 }
 
 .nav-middle-side ul li a {
@@ -99,10 +99,10 @@ li {
   background-color: #fea301;
   color: #ffffff;
   border-style: none;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700;
   margin-left: 186px;
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 .hamburger {
@@ -329,7 +329,7 @@ li {
   .card-holder {
     flex-direction: column;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 20px;
     gap: 30px;
   }
 
