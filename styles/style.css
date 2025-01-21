@@ -1,215 +1,323 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 .quicksand-font {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* shared style */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.display-flex{
-    display: flex;
+.max-width-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
-.black-clr{
-    color: #111111;
+.display-flex {
+  display: flex;
 }
 
-.nav-middle-item{
-    font-weight: bold;
-    font-size: 1.25rem;
+.black-clr {
+  color: #111111;
 }
 
+.nav-middle-item {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
 
 /* navigation style */
-.navigation{
-    max-height: 102px;
-    justify-content: center;
-    align-items: center;
+
+.navigation {
+  max-height: 102px;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-left-side{
-    max-width: 202px;
-    max-height: 62px;
-    gap: 11px;
-    margin-right: 186px;
-    margin-top: 5px;
+.nav-left-side {
+  max-width: 202px;
+  max-height: 62px;
+  gap: 11px;
+  margin-right: 186px;
+  margin-top: 5px;
 }
 
-.nav-img{
-    max-height: 62px;
-    max-width: 62px;
+.nav-img {
+  max-height: 62px;
+  max-width: 62px;
 }
 
-.nav-title{
-    margin-top: 17px;
-    margin-bottom: 15px;
+.nav-title {
+  margin-top: 17px;
+  margin-bottom: 15px;
 }
 
-.school{
-    font-weight: bold;
-    font-size: 2rem;
+.school {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 .nav-middle-side {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-.nav-middle-side ul li a{
-    text-decoration: none; 
-    margin-right: 32px;  
+.nav-middle-side ul li a {
+  text-decoration: none;
+  margin-right: 32px;
 }
 
-.home{
-    color: orange;
+.home {
+  color: orange;
 }
 
-.about{
-    color: lightblue;
+.about {
+  color: lightblue;
 }
 
-.facilities{
-    color: aquamarine;
+.facilities {
+  color: aquamarine;
 }
 
-.admission{
-    color: lightpink;
+.admission {
+  color: lightpink;
 }
 
-.contact{
-    max-width: 197px;
-    border-radius: 12px;
-    padding: 10px 10px;
-    background-color:#FEA301 ;
-    color: #FFFFFF;
-    border-style: none;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-left: 186px;
-    margin-top: 20px;
+.contact {
+  max-width: 197px;
+  border-radius: 12px;
+  padding: 10px 10px;
+  background-color: #fea301;
+  color: #ffffff;
+  border-style: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 186px;
+  margin-top: 20px;
 }
 
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
 
 /* This is banner part */
 
-.banner-section{
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
+.banner-section {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.banner-left-side{
-    margin-top: 100px;
-    max-width: 640px;
+.banner-left-side {
+  margin-top: 100px;
+  max-width: 640px;
 }
 
-.banner-title{
-    font-weight:bold;
-    font-size: 3.5rem;
-    margin-bottom: 24px;
+.banner-title {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 24px;
 }
 
-.empowering{
-    color: #FEA301;
+.empowering {
+  color: #fea301;
 }
 
-.vision{
-    color: #01ACFD;
+.vision {
+  color: #01acfd;
 }
 
-.banner-description{
-    font-size: 1.25rem;
-    margin-bottom: 24px;
+.banner-description {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
 }
 
-.banner-button{
-    max-width: 197px;
-    background-color: #111111;
-    border-radius: 12px;
-    padding: 10px;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 1.25rem;
+.banner-button {
+  max-width: 197px;
+  background-color: #111111;
+  border-radius: 12px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
-.banner-right-side{
-    max-width: 450px;
-    max-height: 565px;
+.banner-right-side {
+  max-width: 450px;
+  max-height: 565px;
 }
 
-.banner-image{
-    margin-left: 30px;
+.banner-image {
+  margin-left: 30px;
+  max-width: 450px;
 }
+
+/* standard curriculum */
+
+.bg-standard-section {
+  background-image: url("../assets/bg.png");
+}
+
+.standard-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 2.85rem;
+  color: #000000;
+}
+
+.card-holder {
+  justify-content: space-around;
+}
+
+.standard-card-section-1 {
+  max-width: 367px;
+  max-height: 476px;
+  border-radius: 13.86px;
+  background-color: rgba(234, 249, 255, 1);
+  background: linear-gradient(to bottom, rgba(234, 249, 255, 1), white);
+  text-align: center;
+}
+
+.card-title-1,
+.card-title-2,
+.card-title-3 {
+  color: #202020;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+}
+
+.card-description-1,
+.card-description-2,
+.card-description-3 {
+  color: #808080;
+  font-size: 0.94rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.read-more-1 {
+  color: #64c8ff;
+  text-decoration: none;
+}
+
+.standard-card-section-2 {
+  max-width: 367px;
+  max-height: 476px;
+  border-radius: 13.86px;
+  background-color: rgba(234, 249, 255, 1);
+  background: linear-gradient(to bottom, rgba(255, 244, 220, 1), white);
+  text-align: center;
+}
+.read-more-2 {
+  color: #f0aa00;
+  text-decoration: none;
+}
+
+.standard-card-section-3 {
+  max-width: 367px;
+  max-height: 476px;
+  border-radius: 13.86px;
+  background-color: rgba(234, 249, 255, 1);
+  background: linear-gradient(to bottom, rgba(242, 232, 255, 1), white);
+  text-align: center;
+}
+.read-more-3 {
+  color: #8700ff;
+  text-decoration: none;
+}
+
+.card-img {
+  max-width: 135px;
+  max-height: 136px;
+  margin: 32px;
+}
+
 /* responsive style */
 
-@media screen and (max-width:576px){
-    .navigation{
-        border-bottom: 2px solid orange;
-        justify-content: space-around;
-    }
+@media screen and (max-width: 576px) {
+  /* navigation */
+  .navigation {
+    border-bottom: 2px solid orange;
+    justify-content: space-around;
+  }
 
-    .nav-middle-side,
-    .nav-right-side,
-    .nav-title{
-        display: none;    
-    }
+  .nav-middle-side,
+  .nav-right-side,
+  .nav-title {
+    display: none;
+  }
 
-    .hamburger{
-        display: block;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .nav-img{
-        max-width: 50px;
-        max-height: 50px;
-    }
+  .nav-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
 
-    #bars{
-        font-weight: bold;
-        transform: scale(2);
-        margin-top: 20px;
-    }
+  #bars {
+    font-weight: bold;
+    transform: scale(2);
+    margin-top: 20px;
+  }
 
-    .banner-left-side{
-        margin-right: 0;
-        margin-top: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-    }
+  /* banner */
 
-    .banner-section{
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .banner-title{
-        font-size: 2.3rem;
-    }
-    .banner-right-side{
-        display: flex;
-        justify-content: center;
-        margin-right: 27px;
-    }
+  .banner-left-side {
+    margin-right: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
 
-    .banner-description{
-        font-size: .95rem;
-        max-width: 357px;
-    }
-    .banner-image{
-        max-width: 340px;
-    }
+  .banner-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 
+  .banner-title {
+    font-size: 2.3rem;
+  }
+
+  .banner-right-side {
+    display: flex;
+    justify-content: center;
+    margin-right: 27px;
+  }
+
+  .banner-description {
+    font-size: 0.95rem;
+    max-width: 357px;
+  }
+  .banner-image {
+    max-width: 340px;
+  }
+
+  /* standard card */
+
+  .card-holder {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 15px;
+    gap: 30px;
+  }
+
+  .standard-title {
+    font-size: 1.85rem;
+  }
 }
