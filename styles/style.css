@@ -189,6 +189,10 @@ li {
 
 /* standard curriculum */
 
+.standard-section {
+  flex-direction: column;
+}
+
 .bg-standard-section {
   background: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
@@ -294,6 +298,10 @@ li {
 }
 
 /* our storeis section */
+
+.our-stories-section{
+  flex-direction: column;
+}
 
 .our-stories-title-holder {
   justify-content: center;
@@ -549,10 +557,15 @@ li {
 
   /* standard card */
 
+  .standard-section{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .card-holder {
     flex-direction: column;
     text-align: center;
-    padding-left: 20px;
     gap: 30px;
   }
 
@@ -565,6 +578,12 @@ li {
   }
 
   /* stories part */
+
+  .stories-part{
+    justify-content: center;
+    gap: 0px;
+    padding: 0 30px;
+  }
 
   .sotries-left {
     display: none;
